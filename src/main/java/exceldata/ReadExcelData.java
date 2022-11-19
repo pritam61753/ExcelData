@@ -14,6 +14,7 @@ public class ReadExcelData {
 	public void dataReadTest() throws Exception {
 		
 		File src = new File("C:\\Users\\win8\\eclipse-workspace\\excel_data.xlsx");
+		
 		FileInputStream fis = new FileInputStream(src);
 		
 		XSSFWorkbook xsf = new XSSFWorkbook(fis);
